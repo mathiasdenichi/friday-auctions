@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "localforage": "^1.7.3",
     "react": "16.8.0",
     "react-dom": "16.8.0",
     "react-md": "1.9.2",
