@@ -6,10 +6,10 @@
   "scripts": {
     "build": "webpack --mode production",
     "heroku-prebuild": "npm install --only=dev",
-    "start": "npm run build && node src/server/index.js",
+    "go": "npm run build && node src/server/index.js",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "nodemon src/server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Sandeep Raveesh",
   "license": "ISC",
