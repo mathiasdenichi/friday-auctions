@@ -22,9 +22,7 @@
     "lodash": "^4.17.11",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-md": "^1.9.2"
-  },
-  "devDependencies": {
+    "react-md": "^1.9.2",
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
